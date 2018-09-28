@@ -3,5 +3,5 @@
 var VicsToken = artifacts.require("./VicsToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(VicsToken);
+  deployer.deploy(VicsToken, 1000000);
 };

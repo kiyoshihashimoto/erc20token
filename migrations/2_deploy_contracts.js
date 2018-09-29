@@ -1,7 +1,7 @@
 // reading dapp token contract in the solidity language from our project directory
 
-var VicsToken = artifacts.require("./VicsToken.sol");
+var FredToken = artifacts.require("./FredToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(VicsToken, 1000000);
+  deployer.deploy(FredToken, 1000000);
 };
